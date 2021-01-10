@@ -1,0 +1,174 @@
+{
+  "categories" : [ {
+    "name" : "kitchen",
+    "subCategories" : [ {
+      "name" : "technique",
+      "products" : [ {
+        "manufacturer" : "BIRUSA",
+        "model" : "AB123",
+        "date" : "29-12-2019",
+        "color" : "Red",
+        "price" : 100.1,
+        "number" : 0,
+        "available" : null
+      }, {
+        "manufacturer" : "BIRUSA",
+        "model" : "AC123",
+        "date" : "29-12-2019",
+        "color" : "Green",
+        "price" : 100.2,
+        "number" : 15,
+        "available" : null
+      }, {
+        "manufacturer" : "BIRUSA",
+        "model" : "AD123",
+        "date" : "29-12-2019",
+        "color" : "Blue",
+        "price" : 100.3,
+        "number" : 0,
+        "available" : null
+      } ]
+    }, {
+      "name" : "hardware",
+      "products" : [ {
+        "manufacturer" : "DRUZHBA",
+        "model" : "AE234",
+        "date" : "29-12-2019",
+        "color" : "Red",
+        "price" : 200.4,
+        "number" : 20,
+        "available" : null
+      }, {
+        "manufacturer" : "DRUZHBA",
+        "model" : "AF234",
+        "date" : "29-12-2019",
+        "color" : "Green",
+        "price" : 200.5,
+        "number" : 0,
+        "available" : null
+      }, {
+        "manufacturer" : "DRUZHBA",
+        "model" : "AG234",
+        "date" : "29-12-2019",
+        "color" : "Blue",
+        "price" : 200.6,
+        "number" : 21,
+        "available" : null
+      } ]
+    } ]
+  }, {
+    "name" : "bathroom",
+    "subCategories" : [ {
+      "name" : "technique",
+      "products" : [ {
+        "manufacturer" : "BOSH",
+        "model" : "BC345",
+        "date" : "30-12-2018",
+        "color" : "Red",
+        "price" : 1100.1,
+        "number" : 5,
+        "available" : null
+      }, {
+        "manufacturer" : "BOSH",
+        "model" : "BD345",
+        "date" : "30-12-2018",
+        "color" : "Green",
+        "price" : 1100.2,
+        "number" : 0,
+        "available" : null
+      }, {
+        "manufacturer" : "BOSH",
+        "model" : "BE345",
+        "date" : "30-12-2018",
+        "color" : "Blue",
+        "price" : 1100.3,
+        "number" : 3,
+        "available" : null
+      } ]
+    }, {
+      "name" : "hardware",
+      "products" : [ {
+        "manufacturer" : "SHELLY",
+        "model" : "BF456",
+        "date" : "30-12-2018",
+        "color" : "Red",
+        "price" : 1200.4,
+        "number" : 6,
+        "available" : null
+      }, {
+        "manufacturer" : "SHELLY",
+        "model" : "BG456",
+        "date" : "30-12-2018",
+        "color" : "Green",
+        "price" : 1200.5,
+        "number" : 10,
+        "available" : null
+      }, {
+        "manufacturer" : "SHELLY",
+        "model" : "BH456",
+        "date" : "30-12-2018",
+        "color" : "Blue",
+        "price" : 1200.6,
+        "number" : 0,
+        "available" : null
+      } ]
+    } ]
+  }, {
+    "name" : "livingRoom",
+    "subCategories" : [ {
+      "name" : "technique",
+      "products" : [ {
+        "manufacturer" : "SONY",
+        "model" : "CD567",
+        "date" : "31-12-2017",
+        "color" : "Red",
+        "price" : 2100.1,
+        "number" : 0,
+        "available" : null
+      }, {
+        "manufacturer" : "SONY",
+        "model" : "CE567",
+        "date" : "31-12-2017",
+        "color" : "Green",
+        "price" : 2100.2,
+        "number" : 0,
+        "available" : null
+      }, {
+        "manufacturer" : "SONY",
+        "model" : "CF567",
+        "date" : "31-12-2017",
+        "color" : "Blue",
+        "price" : 2100.3,
+        "number" : 0,
+        "available" : null
+      } ]
+    }, {
+      "name" : "hardware",
+      "products" : [ {
+        "manufacturer" : "ATLANT",
+        "model" : "CG678",
+        "date" : "31-12-2017",
+        "color" : "Red",
+        "price" : 2200.4,
+        "number" : 1,
+        "available" : null
+      }, {
+        "manufacturer" : "ATLANT",
+        "model" : "CH678",
+        "date" : "31-12-2017",
+        "color" : "Green",
+        "price" : 2200.5,
+        "number" : 2,
+        "available" : null
+      }, {
+        "manufacturer" : "ATLANT",
+        "model" : "CI678",
+        "date" : "31-12-2017",
+        "color" : "Blue",
+        "price" : 2200.6,
+        "number" : 3,
+        "available" : null
+      } ]
+    } ]
+  } ]
+}

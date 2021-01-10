@@ -1,0 +1,8 @@
+# Project exclude paths
+/.gradle/
+/build/
+/build/classes/java/main/
+/Converter/build/
+/Converter/build/classes/java/main/
+/ShopModel/build/
+/ShopModel/build/classes/java/main/
