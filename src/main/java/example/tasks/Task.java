@@ -1,6 +1,7 @@
 package example.tasks;
 
 import entity.Shop;
+import example.services.FileService;
 import example.services.PropertiesService;
 import util.JSONConverter;
 import util.XMLConverter;
@@ -18,8 +19,8 @@ public class Task {
         String pathToXML = PropertiesService.getProperty("pathToXML");
         String pathToJSON = PropertiesService.getProperty("pathToJSON");
         // XML-/JSON-file
-        File xmlFile = new File(pathToXML);
-        File jsonFile = new File(pathToJSON);
+        File xmlFile = FileService.getFile(pathToXML);
+        File jsonFile = FileService.getFile(pathToJSON);
 
         // XML-Object-JSON Converter
         // Converters
