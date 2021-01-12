@@ -19,7 +19,7 @@ public class JSONConverterImpl implements JSONConverter {
             return writer.toString();
         }
         catch (IOException exception) {
-            LOGGER.warning("Cannot write value! " + exception.toString());
+            LOGGER.warning("3Cannot write value! " + exception.toString());
         }
         return null;
     }
@@ -32,20 +32,20 @@ public class JSONConverterImpl implements JSONConverter {
             return mapper.readValue(reader, objectClass);
         }
         catch (IOException exception) {
-            LOGGER.warning("Cannot read value! " + exception.toString());
+            LOGGER.warning("2Cannot read value! " + exception.toString());
         }
         return null;
     }
 
     @Override
-    public Object toObject(File file, Class<?> objectClass) {
+    public Object toObject(InputStream inputStream, Class<?> objectClass) {
         try {
-            FileReader reader = new FileReader(file);
+            InputStreamReader reader = new InputStreamReader(inputStream);
             ObjectMapper mapper = new ObjectMapper();
             return mapper.readValue(reader, objectClass);
         }
         catch (IOException exception) {
-            LOGGER.warning("Cannot read value! " + exception.toString());
+            LOGGER.warning("1Cannot read value! " + exception.toString());
         }
         return null;
     }

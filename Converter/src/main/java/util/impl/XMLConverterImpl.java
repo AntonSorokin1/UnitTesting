@@ -6,9 +6,7 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
-import java.io.File;
-import java.io.StringReader;
-import java.io.StringWriter;
+import java.io.*;
 import java.util.logging.Logger;
 
 public class XMLConverterImpl implements XMLConverter {
@@ -46,11 +44,11 @@ public class XMLConverterImpl implements XMLConverter {
     }
 
     @Override
-    public Object toObject(File file, Class<?> objectClass) {
+    public Object toObject(InputStream inputStream, Class<?> objectClass) {
         try {
             JAXBContext context = JAXBContext.newInstance(objectClass);
             Unmarshaller unmarshaller = context.createUnmarshaller();
-            return unmarshaller.unmarshal(file);
+            return unmarshaller.unmarshal(inputStream);
         }
         catch (JAXBException exception) {
             LOGGER.warning(ERROR + exception.toString());

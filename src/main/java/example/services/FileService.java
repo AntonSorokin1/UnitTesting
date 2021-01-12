@@ -1,16 +1,11 @@
 package example.services;
 
-import java.io.File;
-import java.net.URL;
+import java.io.*;
 
 public class FileService {
     private FileService() {}
 
-    public static File getFile(String filePath) {
-        URL url = FileService.class.getClassLoader().getResource(filePath);
-        if (url != null) {
-            return new File(url.getFile());
-        }
-        return null;
+    public static InputStream getInputStream(String filePath) {
+        return FileService.class.getClassLoader().getResourceAsStream(filePath);
     }
 }
