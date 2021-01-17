@@ -14,8 +14,12 @@ repositories {
 }
 
 dependencies {
+    implementation 'junit:junit:4.12'
     compile project(":Converter")
     compile project(":ShopModel")
+    testImplementation 'org.mockito:mockito-all:2.0.2-beta'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
 }
 
 jar {

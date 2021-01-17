@@ -14,6 +14,11 @@ public class Category {
     public Category() {
     }
 
+    public Category(String name, List<SubCategory> subCategories) {
+        this.name = name;
+        this.subCategories = subCategories;
+    }
+
     public Category(List<SubCategory> subCategories) {
         this.subCategories = subCategories;
     }

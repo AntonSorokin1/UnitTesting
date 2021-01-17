@@ -14,6 +14,11 @@ public class SubCategory {
     public SubCategory() {
     }
 
+    public SubCategory(String name, List<Product> products) {
+        this.name = name;
+        this.products = products;
+    }
+
     public SubCategory(List<Product> products) {
         this.products = products;
     }

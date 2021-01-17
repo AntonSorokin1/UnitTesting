@@ -1,7 +1,6 @@
 package util.impl;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.SerializationFeature;
 import util.JSONConverter;
 
 import java.io.*;
@@ -14,12 +13,12 @@ public class JSONConverterImpl implements JSONConverter {
     public String toJSON(Object object) {
         try {
             StringWriter writer = new StringWriter();
-            ObjectMapper mapper = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
+            ObjectMapper mapper = new ObjectMapper();
             mapper.writeValue(writer, object);
             return writer.toString();
         }
         catch (IOException exception) {
-            LOGGER.warning("3Cannot write value! " + exception.toString());
+            LOGGER.warning("Cannot write value! " + exception.toString());
         }
         return null;
     }
@@ -32,7 +31,7 @@ public class JSONConverterImpl implements JSONConverter {
             return mapper.readValue(reader, objectClass);
         }
         catch (IOException exception) {
-            LOGGER.warning("2Cannot read value! " + exception.toString());
+            LOGGER.warning("Cannot read value! " + exception.toString());
         }
         return null;
     }
@@ -45,7 +44,7 @@ public class JSONConverterImpl implements JSONConverter {
             return mapper.readValue(reader, objectClass);
         }
         catch (IOException exception) {
-            LOGGER.warning("1Cannot read value! " + exception.toString());
+            LOGGER.warning("Cannot read value! " + exception.toString());
         }
         return null;
     }

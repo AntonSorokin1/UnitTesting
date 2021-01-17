@@ -23,3 +23,17 @@ g
 7Converter/src/main/java/util/impl/XMLConverterImpl.java,4\5\4520f636e0ec3220d6103cf4328804442c9543b0
 U
 %src/main/java/example/tasks/Task.java,4\9\491dfcb1161376ccea8baacbe3f41a7bb47dde0d
+I
+gradle/profile_dev.gradle,d\4\d4990c47375ab5ce7515ca50231ccaa39d403beb
+J
+gradle/profile_prod.gradle,c\d\cd048ab9e84c10a4bd6e9546a7d932940e2bb7c7
+?
+profiles.gradle,7\e\7e265ff8f909d86bd051fcfb003ca24c63516ae0
+?
+settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
+\
+,ShopModel/src/main/java/entity/Category.java,5\8\58c3db6ae8881de0611417b4bceab44167fe39a4
+a
+1Converter/src/test/java/XMLConverterImplTest.java,9\6\963ab35ecf46e0fc5a52c361771c8f7fcd0b0da6
+b
+2Converter/src/test/java/JSONConverterImplTest.java,5\2\5241724fff5f954b53e80f4a81fe2eb20ae1e34e
